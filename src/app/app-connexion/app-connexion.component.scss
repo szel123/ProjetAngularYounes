@@ -1,0 +1,51 @@
+.signin-form{
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+$input-translate-Y:30%;
+
+
+@keyframes inputs{
+    0% {
+        opacity: 0%;
+        transform:translateY(-$input-translate-Y) ;
+    }
+    100% {
+        opacity: 100%;
+        transform:translateY($input-translate-Y) ;
+    }
+}
+
+input{
+    animation: inputs 500ms ease-in-out 100ms both;
+}
+
+h1{
+    animation: h1s 400ms ease-in-out 0ms  both;
+}
+
+@keyframes h1s{
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes btns{
+    0% {
+        opacity: 0%;
+        transform:translateY(-$input-translate-Y) ;
+    }
+    100% {
+        opacity: 100%;
+        transform:translateY($input-translate-Y) ;
+    }
+}
+
+.btn{
+    animation: btns 500ms ease-in-out 400ms both;
+}
