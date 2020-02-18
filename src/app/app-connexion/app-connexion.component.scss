@@ -12,6 +12,9 @@ $input-translate-Y:30%;
         opacity: 0%;
         transform:translateY(-$input-translate-Y) ;
     }
+    70%{
+        opacity: 30%;
+    }
     100% {
         opacity: 100%;
         transform:translateY($input-translate-Y) ;
@@ -30,6 +33,9 @@ h1{
     0% {
         opacity: 0%;
     }
+    70%{
+        opacity: 30%;
+    }
     100% {
         opacity: 100%;
     }
@@ -40,6 +46,9 @@ h1{
         opacity: 0%;
         transform:translateY(-$input-translate-Y) ;
     }
+    70%{
+        opacity: 30%;
+    }
     100% {
         opacity: 100%;
         transform:translateY($input-translate-Y) ;
@@ -47,5 +56,11 @@ h1{
 }
 
 .btn{
-    animation: btns 500ms ease-in-out 400ms both;
+    animation: btns 500ms ease-in-out 150ms both;
+}
+
+app-app-menu{
+    position: absolute;
+    height: 100%;
+    top:0
 }

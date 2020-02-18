@@ -1,0 +1,25 @@
+<div class="arrow" (click)="gaucheDroite()"
+    [ngClass] = "{
+            'classgauche' : gauche == 1,
+            'classdroite' : gauche == 2
+        }">
+    <i id="f" class="fa fa-arrow-right"
+    
+    [ngClass] = "{
+        'arrowleft' : gauche == 1,
+        'arrowleft' : gauche == 2
+    }"></i>
+</div>
+<div class="mere" 
+[ngClass] = "{
+    'classgauche' : gauche == 1,
+    'classdroite' : gauche == 2
+}">
+    <div class="fille">
+        <p>log in</p>
+    </div>
+    <hr >
+    <div class="fille">
+        <p>sign in</p>
+    </div>
+</div>
